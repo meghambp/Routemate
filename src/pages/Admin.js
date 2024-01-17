@@ -1,5 +1,7 @@
 export const Admin = () => {
   return (
-    <div>Admin</div>
+    <main>
+      <div className="component">Admin</div>
+    </main>
   )
 }

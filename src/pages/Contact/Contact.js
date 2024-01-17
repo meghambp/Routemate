@@ -6,10 +6,10 @@ export const Contact = () => {
     navigate("/");
   }
   return (
-    <>
+    <main>
       <div className="component">Contact</div>
       <Outlet />
       <button onClick={handleSubmit}>Back to Home</button>
-    </>
+    </main>
   )
 }
